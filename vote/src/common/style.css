@@ -1,0 +1,123 @@
+html, body, #root, .wrap {
+  height: 100%;
+  width: 100%;
+  font-size: 0.4rem;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.heade {
+  height: 1.173333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heade .left {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heade .right {
+  flex: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  height: 1.173333rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.header {
+  height: 1.173333rem;
+  text-align: center;
+  line-height: 1.173333rem;
+}
+
+.navv {
+  height: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.navv .navvx {
+  width: 80%;
+  display: flex;
+  color: red;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.navv .navvx div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+  width: 100%;
+}
+
+.main img {
+  height: 4rem;
+  width: 100%;
+}
+
+.main .nav {
+  height: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main .nav dl {
+  width: 25%;
+  text-align: center;
+}
+
+.main .nav dl dt {
+  font-size: 24px;
+  color: green;
+}
+
+.main input {
+  outline: none;
+  border: 1px solid black;
+}
+
+.main textarea {
+  outline: none;
+  border: 1px solid black;
+}
+
+.footer {
+  height: 1.1733333rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .active {
+  color: yellowgreen;
+}
